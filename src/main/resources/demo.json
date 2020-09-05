@@ -1,0 +1,31 @@
+{
+  "title":"量子医生",
+  "items": [
+    {
+      "subTitle": "就诊人信息",
+      "subItems": [
+        {"subItemKey": "就诊人姓名", "subItemValue": "范国脉"},
+        {"subItemKey": "性别", "subItemValue": "女"},
+        {"subItemKey": "年龄", "subItemValue": 29},
+        {"subItemKey": "出生日期", "subItemValue": "2020-05-03"},
+        {"subItemKey": "体重", "subItemValue": "56.4kg"},
+        {"subItemKey": "手机号码", "subItemValue": "18111111111"},
+        {"subItemKey": "医疗档案号", "subItemValue": "1111111"},
+        {"subItemKey": "其他", "subItemValue": "其他1111"}
+      ]
+    },
+    {
+      "subTitle": "目前主要诊断",
+      "subItems": [
+        {"subItemKey": "", "subItemValue": "测试疾病"}
+      ]
+    },
+    {
+      "subTitle": "问诊报告",
+      "subItems": [
+        {"subItemKey": "", "subItemValue": "1. 测试疾病<br/>2. xxxx", "isTextArea": true, "wholeLine": true},
+        {"subItemKey": "开具日期", "subItemValue": "2020-07-05", "newLine": true}
+      ]
+    }
+  ]
+}

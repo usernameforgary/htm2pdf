@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div {
+            display: flex;
+        }
+        .container {
+            flex-flow: column;
+        }
+        .title {
+            font-family: 'PingFangSC-Medium', 'PingFang SC Medium', 'PingFang SC';
+            font-weight: 500;
+            font-style: normal;
+            font-size: 20px;
+            color: #353535;
+            justify-content: center;
+            align-items: center;
+        }
+        .sub {
+            flex-flow: column;
+            align-items: flex-start;
+        }
+        .subTitle {
+            font-family: 'PingFangSC-Semibold', 'PingFang SC Semibold', 'PingFang SC';
+            font-style: normal;
+            font-size: 16px;
+            color: #666666;
+        }
+
+        .subItem {
+            font-family: 'PingFangSC-Regular', 'PingFang SC';
+            font-weight: 400;
+            font-style: normal;
+            font-size: 12px;
+            line-height: 18px;
+        }
+        .subItemKey {
+            color: #989898;
+        }
+
+        .subItemValue {
+            color: #666666;
+        }
+
+        .subItems{
+            width: 100%;
+            text-align: center;
+            align-content: flex-start;
+            flex-flow: row wrap;
+        }
+
+        .subItem {
+            flex: 0 0 25%;
+            margin-bottom: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title">量子医生</div>
+        <div class="sub">
+            <div class="subTitle">就诊人信息</div>
+            <div class="subItems">
+                <div class="subItem">
+                    <div class="subItemKey">就诊人姓名:</div>
+                    <div class="subItemValue">范国脉</div>
+                </div>
+                <div class="subItem">
+                    <div class="subItemKey">性别:</div>
+                    <div class="subItemValue">女</div>
+                </div>
+                <div class="subItem">
+                    <div class="subItemKey">年龄:</div>
+                    <div class="subItemValue">24</div>
+                </div>
+                <div class="subItem">
+                    <div class="subItemKey">出生日期:</div>
+                    <div class="subItemValue">2020-05-03</div>
+                </div>
+                <div class="subItem">
+                    <div class="subItemKey">体重:</div>
+                    <div class="subItemValue">56.4kg</div>
+                </div>
+                <div class="subItem">
+                    <div class="subItemKey">手机号码:</div>
+                    <div class="subItemValue">18111111111</div>
+                </div>
+                <div class="subItem">
+                    <div class="subItemKey">身份证号:</div>
+                    <div class="subItemValue">411111111111111111</div>
+                </div>
+                <div class="subItem">
+                    <div class="subItemKey">手机号:</div>
+                    <div class="subItemValue">18111111111</div>
+                </div>
+                <div class="subItem">
+                    <div class="subItemKey">医疗档案号:</div>
+                    <div class="subItemValue">1111111</div>
+                </div>
+                <div class="subItem">
+                    <div class="subItemKey">科室:</div>
+                    <div class="subItemValue">肿瘤科</div>
+                </div>
+            </div>
+        </div>
+        <div class="sub">
+            <div class="subTitle">目前主要诊断</div>
+            <div class="subItems">
+                <div class="subItem">
+                    <div class="subItemKey"></div>
+                    <div class="subItemValue">测试疾病</div>
+                </div>
+            </div>
+        </div>
+        <div class="sub">
+            <div class="subTitle">诊疗报告</div>
+            <div class="subItems">
+                <div class="subItem wholeLine">
+                    <div class="subItemKey"></div>
+                    <div class="subItemValue isTextArea">1. 测试疾病<br/>2. xxxx</div>
+                </div>
+                <div class="subItem newLine">
+                    <div class="subItemKey">开具日期:</div>
+                    <div class="subItemValue">2020-07-05</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
